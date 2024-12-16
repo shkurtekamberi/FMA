@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    span {
+      background-color: aqua;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Shkurte Kamberi</h1>
+      <nav>
+        <ul>
+          <li>Kush eshte shkurta</li>
+          <li>Qka bon shkurta</li>
+          <li>Pse osht shkurta</li>
+        </ul>
+        <img src="shkurte.png" width="100" alt="" />
+        <figcaption>Shkurta</figcaption>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <h3>Te dhena per Shkurten</h3>
+      <table border="3">
+        <tr>
+          <th colspan="2">Emri dhe mbiemri</th>
+          <th>Email</th>
+          <th>Numri i telefonit</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Shkurte</td>
+          <td rowspan="2">Kamberi</td>
+          <td>shkurtekamberi12@gmail.com</td>
+          <td>045 910 318</td>
+        </tr>
+      </table>
+      <hr />
+      <h4>Format</h4>
+      <form action="action_page.php" method="post"></form>
+      <label for="Name">Emri:</label>
+      <input type="text" placeholder=" shkruaj emrin" />
+      <br />
+      <br />
+      <label for="Name">Mbiemri:</label>
+      <input type="text" placeholder="shkruaj mbiemrin" />
+      <br /><br />
+      <label for="password">password:</label>
+      <input type="password" />
+      <br /><br />
+      <p>Gjinia:</p>
+      <label for="Mashkull">Mashkull</label>
+      <input type="radio" name="Mashkull" id="Femer" />
+      <label for="Femer">Femer</label>
+      <input type="radio" name="Femer" id="Femer" />
+      <hr />
+      <h5><span>Qka i pelqen shkurtes</span></h5>
+      <label for="pelqimet">Selekto pelqimet</label>
+      <select name="" id="">
+        <option value=""></option>
+        <option value="">diqka</option>
+        <option value="">kurgjo</option>
+      </select>
+      <br />
+      <br />
+      <hr />
+      <h2>A ju pelqen shkurta</h2>
+      <label for="checkbox">Po</label>
+      <input type="checkbox" />
+      <label for="checkbox">Jo</label>
+      <input type="checkbox" />
+      <hr />
+      <details>
+        <summary>Kliko per me shume</summary>
+        <p>Shkurta eshte budall</p>
+      </details>
+    </main>
+  </body>
+</html>

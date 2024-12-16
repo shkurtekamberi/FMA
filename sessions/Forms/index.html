@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="action_page.phg" method="get">
+      <label for="emri">Emri</label>
+      <input
+        type="text"
+        name="emri"
+        id="emri"
+        placeholder="emri juaj"
+        required
+      />
+      <br />
+      <br />
+      <label for="mbiemri">mbiemri</label>
+      <input
+        type="text"
+        name="mbiemri"
+        id="mbiemri"
+        placeholder="shkruaj mbiemrin"
+        required
+      />
+      <br />
+      <br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="shkruaj passin"
+        maxlength="12"
+        required
+      />
+      <br />
+      <br />
+      <label for="data"></label>
+      <input type="date" name="data" />
+      <br />
+      <label for="select">Selekto</label>
+      <select name="" id="">
+        <option value="">Pica</option>
+        <option value="">Hamburger</option>
+        <option value="">blina</option>
+      </select>
+      <br />
+      <label for="radio">MR</label>
+      <input type="radio" name="radio" value="Mr." />
+
+      <label for="radio">MRS.</label>
+      <input type="radio" value="Mrs." name="radio" />
+      <label for="submit"></label>
+      <input type="submit" value="dergo" /> <br />
+      <br />
+      <label for="checkbox">Muzik rock</label>
+      <input type="checkbox" name="checkbox" value="muzik rock" />
+      <label for="checkbox">Muzikpopullore</label>
+      <input type="checkbox" value="Muzik popullore" /> <br />
+      <br />
+      <label for="file">Zgjedh file</label>
+      <input type="file" name="file" />
+      <!-- me zgjedh ni file -->
+      <label for="quantity">Sasia</label>
+      <input type="number" name="Sasia" id="quantity" /> <br />
+      <br />
+      <!-- ,mw zgjedh ni sasi ose per numra -->
+      <label for="koment">Komeny</label>
+      <textarea name="" id="" cols="25" rows="10"></textarea> <br /><br />
+      <!-- me shtu ni koment, cols-per kolona sa podon rows-per rreshta -->
+      <label for="grup">Grupe formash</label>
+      <fieldset>
+        <legend>Kontaktet</legend>
+        <label for="email">Email <br /></label>
+
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="example@gmail.com"
+        />
+        <label for="number"></label>
+        <input type="num" id="number" placeholder="+383-44-000-000" />
+      </fieldset>
+      <!-- per me bo ni grup t formave
+       legend-mja lon ni emer -->
+      <br />
+      <br />
+      <input type="reset" />
+      <input type="submit" value="kliko" />
+    </form>
+  </body>
+</html>
