@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    li:nth-child(3),
+    li:nth-child(7) {
+      font-weight: bold;
+    }
+    /* mrena kllapav e zgedhmi te cili element podojm me apliku najsen */
+    li:nth-child(2n + 1) {
+      color: red;
+    }
+    /* n gjith ja nis prej numrit 0 me numru   */
+    li:nth-child(even) {
+      background-color: green;
+      /* numrat qift i ngjyros */
+    }
+    li:nth-child(odd) {
+      background-color: yellow;
+      /* numrat tek */
+    }
+    h1 {
+      text-align: center;
+    }
+    body {
+      background-image: url(images.jpg);
+      /* me qit ni foto n backround */
+    }
+    p {
+      text-transform: uppercase;
+      text-transform: lowercase;
+      text-transform: capitalize;
+      /* shkronjat ti bon t mdhaja krejt t vogla krejt ose seciles fjal shkornja e pare e madhe*/
+    }
+    p::first-letter {
+      font-size: 50px;
+      /* veq shkronjen e pare e bon t madhe */
+    }
+    p {
+      text-decoration: overline;
+      text-decoration: line-through;
+      text-decoration: underline;
+      /* dalin vija nalt nmes ose posht paragrafit */
+      text-decoration-style: dotted;
+      text-decoration-style: dashed;
+      /* vijat mujna me i bo me pika ose me viza */
+      letter-spacing: 10px;
+      /* mes sweciles shkronj hapsira */
+      word-spacing: 30px;
+      /* hapsira mes fjalve */
+    }
+  </style>
+  <body>
+    <ul>
+      <li>Elementi1</li>
+      <li>Elementi2</li>
+      <li>Elementi3</li>
+      <li>Elementi4</li>
+      <li>Elementi5</li>
+      <li>Elementi6</li>
+      <li>Elementi7</li>
+      <li>Elementi8</li>
+    </ul>
+    <h1>Titullli i pare</h1>
+    <p>paragrafi i pare ne kete file</p>
+  </body>
+</html>
