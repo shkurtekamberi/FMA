@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  /*hapsira qe e zen jasht kufinit */
+  padding: 0;
+  /* hapsira mes shkronjave dhe borderit-kufinit */
+}
+/* selektori gjeneral osht ylli dhe ma i dobti se specificiteti osht 000 */
+h1 {
+  margin: 20px;
+}
+/* selektori element */
+.h1 {
+  margin: 0;
+}
+/* selektori klasa */
+#h1 {
+}
+/* selektori id */
+/* css lexohet rresht per rresht aplikohet e fundit kur specificiteti o i njejt */
+.bttn {
+  background-color: blue;
+  font-style: italic;
+  padding: 5px;
+  margin: 5px;
+}
+.bttn1 {
+  padding: 15px;
+}
