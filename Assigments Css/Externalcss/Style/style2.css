@@ -1,0 +1,15 @@
+h1 {
+  background-color: darkred;
+  font-size: large;
+  color: white;
+}
+h2 {
+  background-color: darkblue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+p {
+  color: violet;
+  background-color: darkorchid;
+  font-size: large;
+}
