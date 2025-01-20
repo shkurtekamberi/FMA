@@ -1,0 +1,13 @@
+* {
+  background-color: darkred;
+}
+p {
+  font-style: italic;
+  /* me bo tekstin italic */
+  font-size: 5em;
+  /* madhsia e tekstit */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* per me ndryshu fontin e shkronjave */
+  font-weight: lighter;
+  /* me bo bold */
+}
