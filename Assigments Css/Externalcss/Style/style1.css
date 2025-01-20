@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+  font-style: italic;
+  font-size: 40px;
+}
+h2 {
+  background-color: darkblue;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-weight: bold;
+  color: lightgreen;
+  width: 300px;
+}
