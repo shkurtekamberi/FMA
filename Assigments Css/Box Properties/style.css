@@ -1,0 +1,13 @@
+.container {
+  background-color: orange;
+  border-style: solid;
+}
+img {
+  float: left;
+  margin: 15px;
+}
+img:hover {
+  border-style: dotted;
+  border-color: red;
+  padding: 10px;
+}
