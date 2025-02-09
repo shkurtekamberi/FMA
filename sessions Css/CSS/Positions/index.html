@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        display: inline;
+        /* display per me ja jep ni position elementit 
+        elemtete qe i perfshin jon span strong linqet
+        mujna veq kornizen ngjyren backroundvcolor
+        smujna gjersi gjatsi me rregullu amo padding mujm*/
+        border: 3px solid red;
+        background-color: blue;
+        color: orange;
+        width: 500px;
+        height: 200px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+      h1 {
+        display: block;
+        border: 2px solid red;
+        width: 150px;
+        height: 140px;
+        /* display block e merr krejt hapsiren edhe mujm me bo rregullim t gjersis t gjatsis
+      padding,edhe e nxen komplet rreshtin 
+      div titujt paragr. tabelat listat figurat
+      */
+      }
+      .a {
+        display: inline-block;
+        border: 3px solid red;
+        background-color: blue;
+        color: orange;
+        width: 50px;
+        height: 50px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+      /* inline-block shfaq elemnte mrena rreshttit edhe mujna me bo rregullim t gjersis edhe gjatsis
+      mujna me rregullu elem */
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p>
+        Paagrafi i pare i cili na mundeson qe permes tij te kuptojm pjeset e
+        tagut display ne CSS siq jane: <span class="a"> inline </span>,
+        <span class="a"> inline-block </span>
+        dhe block
+      </p>
+      <h1>Titulli i pare</h1>
+    </div>
+  </body>
+</html>

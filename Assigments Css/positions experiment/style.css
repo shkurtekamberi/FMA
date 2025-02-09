@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.container {
+  width: 45%;
+  height: 90vh;
+}
+
+.klasa {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.klasa h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: -18px;
+}
+
+.klasa p {
+  margin: 5px 0 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.buton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-weight: bold;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.video-container {
+  width: 30%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 20px;
+  text-align: center;
+  bottom: 3%;
+  right: 3%;
+
+  position: fixed;
+}
+
+video {
+  width: 100%;
+}
+
+.video-caption {
+  font-weight: bold;
+  margin-top: 5px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        display: flex;
+        background-color: gray;
+        list-style-type: none;
+        justify-content: space-evenly;
+        flex-direction: row;
+        font-size: 30px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: green;
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .flex-container > div {
+        background-color: rgb(224, 220, 220);
+        border-style: solid;
+        width: 250px;
+        height: 150px;
+        flex-direction: row;
+        justify-content: center;
+        margin: 15px;
+        padding: 50px;
+        font-size: 20px;
+      }
+      .flex-container > div:last-child {
+        width: 30;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#menyja1">Menyja 1</a></li>
+          <li><a href="#menyja2">Menyja 2</a></li>
+          <li><a href="#menyja3">Menyja 3</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex-container">
+      <div>
+        <h3>Element 1</h3>
+        <p>Paragrafi ne divin e pare</p>
+      </div>
+      <div>
+        <h3>Elementi 2</h3>
+        <p>Paragrafi i dyte ne divin e dyte</p>
+      </div>
+      <div>
+        <h3>Elementi 3</h3>
+        <p>Paragrafi itrete ne divin e trete</p>
+      </div>
+      <div>
+        <h3>Elementi 4</h3>
+        <p>Paragrafi i katert ne divin e katert</p>
+      </div>
+    </div>
+  </body>
+</html>

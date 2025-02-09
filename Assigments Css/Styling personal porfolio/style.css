@@ -1,0 +1,13 @@
+header {
+  text-align: center;
+}
+header > nav > ul {
+  list-style-type: none;
+}
+body {
+  background-image: url(blue.webp);
+}
+.container {
+  border-style: solid;
+  border-radius: 1%;
+}

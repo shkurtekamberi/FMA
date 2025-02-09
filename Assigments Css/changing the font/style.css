@@ -1,0 +1,11 @@
+.section {
+  padding: 20px;
+}
+
+.gill-sans {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.courier-new {
+  font-family: "Courier New", Courier, monospace;
+}
