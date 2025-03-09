@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: green;
+      }
+
+      .overlap {
+        width: 500px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+      }
+      .overlap-img {
+        grid-row: 1/5;
+        grid-column: 1/3;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid white;
+        border-radius: 10px;
+      }
+      .descreption {
+        grid-row: 2/4;
+        grid-column: 2/6;
+        display: grid;
+        place-content: center;
+        /* kombinim i justify content edhe align content */
+        margin: 0;
+        padding: 0;
+        background-color: #0000000f;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlap">
+      <div class="overlap-img" style="background-image: url(images.jpg)"></div>
+      <h1 class="descreption">One with nature</h1>
+    </div>
+  </body>
+</html>

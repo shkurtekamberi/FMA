@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: grid;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        grid-template-areas:
+          "header header"
+          "aside main"
+          "footer footer";
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+      }
+      header {
+        grid-area: header;
+        background-color: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      header ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+      }
+      header ul a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      aside {
+        grid-area: aside;
+        grid: 1fr;
+        background-color: white;
+        padding: 10px;
+      }
+      main {
+        grid-area: main;
+        justify-content: space-between;
+      }
+      footer {
+        grid-area: footer;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        padding: 0;
+      }
+      .lista1 {
+        background-color: rgba(214, 210, 210, 0.979);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../../../sessions/Final Project/My projects/loja.jpg"
+        width="70px"
+        alt=""
+      />
+      <ul>
+        <a href="">Menyja 1</a>
+        <a href="">Menyja 2</a>
+        <a href="">Menyja 3</a>
+      </ul>
+    </header>
+    <aside>
+      <div class="klasa1">
+        <img
+          src="../../../sessions/Final Project/My projects/loja.jpg"
+          width="250"
+          alt=""
+        />
+      </div>
+      <div class="klasa2">
+        <h5>Lista tjeter</h5>
+        <ol>
+          <li>Elementi A</li>
+          <li>Elementi B</li>
+          <li>Elementi C</li>
+        </ol>
+      </div>
+    </aside>
+    <main>
+      <div class="foto1">
+        <h2>Fotoja e pare</h2>
+        <img
+          width="80%"
+          src="../../../sessions/Final Project/My projects/loja.jpg"
+          alt=""
+        />
+      </div>
+      <div class="lista1">
+        <h2>Lista e dyte</h2>
+        <ul>
+          <li>Elementi 1</li>
+          <li>Elementi 2</li>
+          <li>Elementi 3</li>
+        </ul>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

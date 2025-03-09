@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Grid</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100vh;
+        margin: 0;
+        background-color: #f7e3e1;
+      }
+
+      .green-cell {
+        background-color: #8de4c5;
+        width: 100%;
+        height: 200px;
+      }
+      .bottom-left {
+        border-bottom-left-radius: 100px;
+      }
+      .bottom-right {
+        border-bottom-right-radius: 100px;
+      }
+
+      .container {
+        position: absolute;
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+        background-color: white;
+        padding: 48px;
+        border-radius: 16px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 1000px;
+        align-self: center;
+        justify-self: center;
+      }
+
+      h1 {
+        margin-top: 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="green-cell bottom-left"></div>
+    <div class="green-cell"></div>
+    <div class="green-cell bottom-right"></div>
+
+    <div class="container">
+      <h1>Hello Grid</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quasi
+        esse itaque minus eos, eligendi alias eum magni voluptatibus enim
+        distinctio incidunt, commodi molestias hic aliquam? Hic perferendis
+        obcaecati laudantium asperiores mollitia voluptas dolore libero quasi
+        repudiandae, velit voluptate amet adipisci commodi eius maxime. Cum
+        corporis porro exercitationem dolor quasi atque nobis possimus error,
+        sapiente vitae perspiciatis eos at voluptatem alias veritatis asperiores
+        doloreque. Quisquam quod corporis perspiciatis eligendi veniam,
+        molestiae cupiditate ipsa repudiandae quis labore, impedit iusto
+        mollitia ipsam accusantium modi non rem dolor voluptate sapiente
+        suscipit quo. Eum, consectetur adipisci commodi impedit iusto, placeat
+        explicabo suscipit dolore error vitae veritatis? Nemo voluptas.
+      </p>
+    </div>
+  </body>
+</html>

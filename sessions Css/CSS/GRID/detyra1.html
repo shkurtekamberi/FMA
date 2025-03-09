@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: lightblue;
+        display: grid;
+        border: 2px solid blue;
+        grid-template-areas:
+          "header header"
+          "aside main"
+          "footer footer";
+        grid-template-columns: 1fr 3fr;
+      }
+      .header {
+        grid-area: header;
+        border: 2px solid blue;
+        text-align: center;
+      }
+      .aside {
+        grid-area: aside;
+        border: 2px solid blue;
+        padding: 10px;
+      }
+      .main {
+        grid-area: main;
+        border: 2px solid blue;
+        padding: 10px;
+      }
+      .footer {
+        grid-area: footer;
+        border: 2px solid blue;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Grid Layout</h1>
+    <div class="container">
+      <div class="header">
+        <h1>My header</h1>
+      </div>
+      <div class="aside">
+        <a href="Link 1"> Link 1</a> <br />
+        <a href="Link 2">Link 2</a> <br />
+        <a href="Link 3">Link 3</a> <br />
+      </div>
+      <div class="main">
+        <h2>Lorem Ipsum</h2>
+        <p>
+          Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+          Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+          Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+          Ipsum Lorem Ipsum
+        </p>
+      </div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        display: flex;
+        background-color: gray;
+
+        gap: 20px;
+        /* me bo hapsir mes elementeve */
+      }
+
+      .item1,
+      .item2,
+      .item3 {
+        background-color: blue;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+      }
+      .item1 {
+        flex: 1 1 100px;
+        /* flex-grow(e para 1) sherben per me rrit elementin sa her po dojm me rrit elementin 
+            flex-shrink(e dyta 1) sa her po dojm mu zvoglu*/
+      }
+      .item2 {
+        flex: 1 1 150px;
+      }
+      .item3 {
+        flex: 1 2 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </div>
+  </body>
+</html>

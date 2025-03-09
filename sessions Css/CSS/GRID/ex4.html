@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: gray;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /* autofill- renditja e kolonave edhe rreshtave edhe nmes tyre ka hapsira boshe sa tja lojm na
+        nese e zvoglojm e run 250px edhe hapsirat boshe */
+        /* autofit- nuk i run hapsirat boshe dueht mja dhon ni vler
+        minimale-nuk mun me shku ma pak se 250px amo mun mu rrit per 1fr nese ka hapsir dmth 1fr osht max*/
+        justify-content: center;
+        margin: 10px;
+        gap: 20px;
+        padding: 10px;
+        width: 50vh;
+        /* 50 vh 50perqin e gjatsis t desktopit */
+        width: 50vw;
+        /* vw gjersia nvarsi t desktopit */
+        /* bajata len masjuhme sesa qe duhet NA RRASIIIIIIIIIIII 
+        SDOMETHON QE KA DREJT me lon bjata qeshtu*/
+      }
+      .item {
+        background-color: lightblue;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+    </div>
+  </body>
+</html>
