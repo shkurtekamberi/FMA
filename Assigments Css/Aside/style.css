@@ -1,0 +1,61 @@
+/* Sidebar styling */
+aside {
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: bisque;
+  padding: 50px 10px 10px;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-name {
+  font-size: 1.5em;
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.list-items {
+  margin-left: 15px;
+  font-size: 1.1em;
+}
+
+.list-item {
+  padding: 0.3em;
+  border: 1px solid red;
+  margin: 5px;
+  display: inline-block;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+.list-item::before {
+  content: "- ";
+}
