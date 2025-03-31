@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+      }
+      aside {
+        width: 20%;
+        background-color: rgb(68, 67, 67);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: white;
+        text-align: right;
+        padding-right: 10px;
+      }
+      aside h1 {
+        font-size: 30px;
+      }
+      aside p {
+        font-size: 20px;
+      }
+      .login {
+        border: 1px solid;
+      }
+      main {
+        flex-grow: 1;
+      }
+      .js {
+        padding: 5px;
+        color: white;
+        background-color: black;
+      }
+      article > section > p > a {
+        text-decoration: none;
+        color: blue;
+      }
+      .html {
+        background-color: blue;
+        color: white;
+      }
+      .css {
+        background-color: green;
+        color: white;
+      }
+      .pinned {
+        color: gray;
+      }
+      svg {
+        border-radius: 50%;
+        position: absolute;
+        right: 70px;
+        top: 70px;
+      }
+      .svg {
+        position: absolute;
+        right: 70px;
+        top: 390px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <aside>
+      <h1>
+        A <br />SAMPLE <br />
+        BLOG
+      </h1>
+      <p>Lorem Ipsum dolor</p>
+      <p class="login">LOG IN</p>
+    </aside>
+    <main>
+      <article>
+        <section>
+          <p class="pinned">PINNED POST</p>
+          <hr />
+          <h1>A pinned post</h1>
+          <p>
+            By <a href="">John Doe</a> under <span class="html">HTML</span>
+            <span class="css">CSS</span>
+          </p>
+
+          <svg width="70" height="70">
+            <image
+              href="../../sessions/Final Project/My projects/loja.jpg"
+              x="0"
+              y="0"
+              width="100"
+              height="70"
+            />
+          </svg>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </section>
+        <br /><br /><br /><br />
+        <section>
+          <p class="pinned">RECENT POSTS</p>
+          <hr />
+          <h1>A recent post</h1>
+          <p>
+            By <a href="">Rocky Balboa</a> under
+            <span class="js">JavaScript</span>
+          </p>
+          <svg class="svg" width="70" height="70">
+            <circle cx="50" cy="50" r="100" fill="white" />
+            <image
+              href="../../sessions/Final Project/My projects/loja.jpg"
+              x="0"
+              y="0"
+              width="100"
+              height="70"
+            />
+          </svg>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

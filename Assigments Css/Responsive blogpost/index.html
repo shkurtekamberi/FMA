@@ -9,21 +9,21 @@
         display: grid;
         grid-template-areas: "aside main";
         grid-template-columns: 20% 80%;
+        height: 100vh;
       }
       aside {
         grid-area: aside;
-        background-color: rgb(68, 67, 67);
+        padding: 5px;
         margin: 0;
-        padding: 0;
+        background-color: lightslategray;
         place-content: center;
-        color: white;
         text-align: right;
       }
       aside h1 {
         font-size: 30px;
       }
       aside p {
-        font-size: 20px;
+        font-size: 30px;
       }
       .login {
         border: 1px solid;
@@ -51,14 +51,27 @@
       .pinned {
         color: gray;
       }
+      svg {
+        border-radius: 50%;
+        position: absolute;
+        right: 70px;
+        top: 70px;
+        border-radius: 100%;
+      }
+      .svg {
+        position: absolute;
+        right: 70px;
+        top: 390px;
+      }
+      @media (max-width: 600px);
     </style>
   </head>
-
   <body>
     <aside>
       <h1>
-        A <br />SAMPLE <br />
-        BLOG
+        A <br />
+        Sample <br />
+        Post
       </h1>
       <p>Lorem Ipsum dolor</p>
       <p class="login">LOG IN</p>
